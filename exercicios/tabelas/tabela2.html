@@ -33,6 +33,7 @@
     <h1>Uso de tabelas grandes</h1>
 
     <!-- ANATOMIA DAS TABELAS GRANDES
+                CAPTION
                 THEAD
                     tr, td, th  
                 TBODY
@@ -41,11 +42,12 @@
                     tr, td, th
             -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col" style="width: 10px;">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -70,7 +72,7 @@
         <tfoot>
             <tr>
                 <th>Top 3</th>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>84.352.631</strong></td>
             </tr>
         </tfoot>
