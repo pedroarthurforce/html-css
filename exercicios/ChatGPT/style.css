@@ -1,0 +1,24 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.caixa{
+    background-color: darkcyan;
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    transform: rotate(-10.6deg);
+}
+
+.texto{
+    padding: 3px;
+    font-size: 24px;
+    text-align: center;
+}
