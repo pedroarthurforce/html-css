@@ -2,3 +2,65 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head img{
+    width: 200px;
+    display: inline;
+    float: left;
+}
+
+#head h1{
+    padding: 50px;
+    margin: 20px;
+}
+
+/* Menu do site */
+a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px;
+    position: relative;
+    top: -50px;
+    left: -20px;
+}
+
+#menu a:link, a:visited{
+    color: rgb(212, 144, 16);
+}
+
+#menu a:hover{
+    background-color:  rgb(212, 144, 16);;
+    color: white;
+}
+
+/* CONTATO */
+.contato img{
+    display: inline-block;
+    padding: 50px;
+    width: 50px;
+}
+
+.contato p{
+    position: relative;
+    right: -120px;
+    top: -90px;
+    font-size: 20px;
+}
+
+.contato a, .contato a:visited, .contato a:link{
+    font-size: 20px;
+    color: darkorange;
+    position: relative;
+    top: -69px;
+    left: -60px;
+}
+
+h6{
+    text-align: center;
+    font-size: 15px;
+}
+/* FIM CONTATO */

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          color: #333;
+        }
+        h1 {
+          text-align: center;
+          margin-top: 20px;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+        li {
+          margin: 10px 0;
+          border: 1px solid #ccc;
+          padding: 10px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        li:hover {
+          background-color: #f5f5f5;
+        }
+        p {
+          display: none;
+        }
+      </style>
+</head>
+
+<body>
+    <!-- PARTE DO LOGO E MENUS -->
+    <header id="head">
+        <img src="imagens/logo.png" alt="logo">
+        <h1>Perguntas e respostas</h1>
+        <div id="menu">
+            <a href="index.html">Home</a>
+            <a href="cachorros.html">Cachorros</a>
+            <a href="gatos.html">Gatos</a>
+            <a href="contato.html">Contato</a>
+            <a href="perguntas.html">FAQ</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <ul>
+                <li>
+                    <h2>Como posso adotar um animal?</h2>
+                    <p>Para adotar um animal, basta preencher o formulário de adoção em nosso site e aguardar o contato de um de nossos voluntários.</p>
+                </li>
+                <li>
+                    <h2>Qual o valor da adoção?</h2>
+                    <p>A adoção de animais em nosso site é gratuita. No entanto, pedimos uma contribuição voluntária para ajudar a manter nosso trabalho.</p>
+                </li>
+                <li>
+                    <h2>Posso adotar um animal se moro em apartamento?</h2>
+                    <p>Sim, é possível adotar um animal mesmo morando em apartamento. No entanto, é importante que você escolha um animal que se adapte bem a esse tipo de ambiente, como um gato ou um cão de pequeno porte.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!--FOOTER/ DIREITOS -->
+    <footer>
+        <h6>Todos os direitos reservados</h6>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const items = document.querySelectorAll('li');
+        items.forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.querySelector('p');
+                answer.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
