@@ -62,5 +62,32 @@ a{
 h6{
     text-align: center;
     font-size: 15px;
+    clear: both;
 }
 /* FIM CONTATO */
+
+/* CACHORROS */
+.dog img{
+    margin-top: 50px;
+    width: 200px;
+    display: inline;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.dog p{
+    background-color: beige;
+    clear: both;
+    padding: 10px;
+    vertical-align: middle;
+    position: relative;
+    top: 55px;
+    left: 10px;
+}
+/* FIM CACHORROS */
+
+/* GATOS */
+
+/* FIM GATOS*/

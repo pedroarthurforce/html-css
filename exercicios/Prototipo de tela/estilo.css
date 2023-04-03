@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    width: 200px;
+    display: inline;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden; /* Adicionado para criar o efeito de borda arredondada */
+}
+
+.logo img {
+    width: 100%; /* Adicionado para que a imagem ocupe todo o espaço disponível */
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a:link, nav a:visited{
+    color: rgb(212, 144, 16);
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color:  rgb(212, 144, 16);;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+.dog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.dog-info {
+    text-align: left;
+}
+
+a {
+    background-color: rgb(212, 144, 16);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
